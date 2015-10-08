@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php require_once('bbcode.parse.php'); ?><!DOCTYPE html>
 <html>
 <head>
 	<title></title>
