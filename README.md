@@ -70,7 +70,7 @@
 
 [;)]
 
-[:beer:]
+[:beer:] - : beer: (without spaces c:)
 
 [:good:]
 
