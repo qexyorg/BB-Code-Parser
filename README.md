@@ -70,7 +70,7 @@
 
 [;)]
 
-[:bear:]
+[:beer:]
 
 [:good:]
 
@@ -80,14 +80,14 @@
 
 [:shy:]
 
-[:secret:]
+[:secret:] - : secret: (without spaces c:)
 
 [:dance:]
 
 [:rock:]
 
-[:sos:]
+[:sos:] - : sos: (without spaces c:)
 
-[:girl:]
+[:girl:] - : girl: (without spaces c:)
 
 [:facepalm:]
