@@ -1,5 +1,22 @@
 <?php
 
+/**
+ * @name 
+ *
+ * @author Qexy
+ *
+ * @contact admin@qexy.org
+ *
+ * @version 1.0.0
+ *
+ * @copyright Qexy.org
+ *
+ * @example example.php
+ *
+ * @license https://github.com/qexyorg/BB-Code-Parser/blob/master/LICENSE
+ *
+ */
+
 class bbcode{
 
 	// URL до папки со смайликами
