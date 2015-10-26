@@ -102,7 +102,7 @@ class bbcode{
 		),
 
 		'color' => array(
-			'pattern' => '/\[(color)\=\"(\#[0-9a-f]{6})\"\]((?:[^[]|(?R))*)\[\/color\]/Usi',
+			'pattern' => '/\[(color)\=\"(\#[0-9a-f]{6})\"\]((?:[^[]|\[(?!\/?(color)\])|(?R))+)\[\/color\]/Usi',
 			'replace' => '<font color="{2}" class="qxbb-color">{3}</font>',
 			'values' => array(1,2,3),
 			'escapes' => false,
