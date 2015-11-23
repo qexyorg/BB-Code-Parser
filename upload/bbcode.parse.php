@@ -255,7 +255,7 @@ class bbcode{
 	// Обработчик обычных тегов с открывающими и загрывающими тегами
 	private function parse_simple_tags($text){
 
-		$pattern = '/\[('.implode('|', array_keys($this->codes)).')\]((?:[^[]|(?R))*)\[\/\\1\]/';
+		$pattern = '/\[('.implode('|', array_keys($this->codes)).')\]((?:[^[]|\[(?!\/?(\\1)\])|(?R))+)\[\/\\1\]/Usi';
 
 		if(is_array($text)){
 			$left_tag = $this->codes[$text[1]]['left_tag'];
